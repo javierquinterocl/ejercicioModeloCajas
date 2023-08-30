@@ -13,20 +13,21 @@ header{
     margin: 0 auto;
     background-color: darkorange;
     width: 1200px;
+    
+    
 }
 article{
     width: 75%;
-    float: left;
     height: 240px;
     background-color: hotpink;
 }
 section{
     background-color: darkseagreen;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
 }
 nav{
-   
-    float: left;
     width: 25%;
     background-color: crimson;
 }
